@@ -1,0 +1,12 @@
+#navbar{
+  display: flex;
+  gap: 24%;
+}
+#navbar2{
+display: flex;
+gap: 20%;
+}
+#alls{ 
+display: flex;
+gap: 24%;
+}
