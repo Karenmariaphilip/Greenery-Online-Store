@@ -1,12 +1,480 @@
 #navbar{
   display: flex;
-  gap: 24%;
+ gap: 42%;
+ background-color: green;
+ color: white;
+ width: 1000px;
+
+}
+#navbarimage{
+    display: flex;
 }
 #navbar2{
 display: flex;
-gap: 20%;
+flex-direction: row;
+gap: 5%;
+}
+#figures{
+   display: flex; 
+
 }
 #alls{ 
 display: flex;
 gap: 24%;
+}
+#photos{
+    display: flex;
+    gap: 12%;
+}
+#alls{
+    text-align: center;
+}
+#arrows{
+    display: flex;
+    gap: 10%;
+   }
+#imagess{
+    display: flex;
+    gap: 2%;
+}
+#erim{
+    display: flex;
+
+}
+#house{
+    display: flex;
+    
+}
+#store{
+    display: flex;
+    gap: 2%;
+}
+#product{
+    display: grid;
+    text-align: center;
+
+}
+#Tree{
+
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+  
+    
+}
+#flowers{
+    display: flex;
+    gap: 2%;
+}
+#plts{
+    display: grid;
+    text-align: center;
+}
+#inspire{
+    display: flex;
+    flex-direction: row;
+    gap: 10%; 
+}
+#potted{
+    display: flex;
+}
+#shop{
+    display: flex;
+    gap: 24%;
+    -webkit-text-fill-color: green;
+
+}
+#indoor{
+    background-image: url(images/leaves.jpeg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-size: larger;
+    width: 1000px;
+}
+#popular{
+    display: flex;
+    gap: 2%;
+}
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+button{
+    background-color: green;
+    color: white;
+    width: 200px;
+}
+#spring{
+    font-size: xx-large;
+}
+#amazing{
+    display: flex;
+
+}
+#icons{
+    display: flex;
+    size: 12%;
+}
+#menu{
+    display: flex;
+    gap: 12%;
+}
+#criss{
+    text-align: center;
+}
+#blog{
+    display: flex;
+}
+#from{
+    font-size: xx-large;
+}
+#COMMODO{
+    display: flex;
+    gap: 15%;
+}
+#Aliquam{
+    display: flex;
+    gap: 15%;
+}
+@media only screen and ( max-width: 1500px) and (min-width:280px) {
+    body {
+      background-color: white;
+      margin: 0px;
+    }
+    #navbar{
+   width: 130%;
+   font-size: 17px;
+    }
+    #navbar2{
+        width: 70px;
+        display: flex;
+    }
+   #inspire{
+    width: 5px;
+    display: block;
+   }
+   #flowers{
+    display: block;
+    gap: 2%;
+}
+#store{
+    display: block;
+    gap: 2%;
+}
+#erim{ 
+    display: block;
+    gap: 24%;
+    }
+    #potted{ 
+        display:block;
+        gap: 24%;
+        }
+        #product{
+            display: block;
+        }
+        #tree{
+            display: block;
+            width: 1px;
+            font-size: x-small;
+        }
+        #indoor{
+            background-size: cover;
+            background-position: center center;
+            text-align: center;
+            background-repeat: no-repeat;
+            font-size:x-small;
+            width: 23px;
+    
+        }  
+        #amazing{
+            display: block;
+        }
+        #COMMODO{
+            display: block;
+            gap: 15%;
+        }
+        #Aliquam{
+            display: block;
+            gap: 15%;
+        }
+        #blog{
+            display: block;
+        }
+        #photos{
+            display: block;
+            gap: 12%;
+        }
+        #menu{
+            display: block;
+            gap: 12%;
+        }
+        body{
+          margin-left: 10px;
+
+        }
+        #jpg{
+            display: block;
+            width: 100px;
+        }
+        #bottle{
+            display: grid;
+        }
+        #lid{
+            width: 70px;
+        }
+        body{
+            font-size: 20px;  
+            margin: 0px; 
+        }
+  }
+ 
+  @media only screen and ( max-width: 915px) and (min-width:79px) {
+    body {
+      background-color: white;
+    }
+    #navbar{
+        width: 120%;
+        font-size: 8px;
+      }
+      body{
+        font-size: 20px; 
+        margin: opx;  
+    }
+}
+@media only screen and ( max-width: 932px) and (min-width:430px) {
+    body {
+      background-color: white;
+    }
+    #navbar{
+        width: 120%;
+        font-size: 8px;
+      }
+      body{
+        font-size: 20px; 
+        margin: 0px;  
+    }
+}
+
+@media only screen and ( max-width: 1024px) and (min-width:768px) {
+    body {
+      background-color: white;
+    }
+    #navbar{
+        width: 119%;
+        height:27px;
+        font-size: 15px;
+      }
+      #navbar2{
+        width: 40px;
+        gap: 40px;
+    }
+#indoor{
+    font-size: 35px;
+}
+#bottle{
+    font-size: 25px;
+}
+body{
+    font-size: 20px; 
+    margin: 0px;  
+}
+}
+@media only screen and ( max-width: 915px) and (min-width:79px) {
+  body {
+    background-color: white;
+  }
+  #navbar{
+      width: 120%;
+      font-size: 8px;
+    }
+    body{
+      font-size: 26px; 
+      margin: 0px;  
+  }
+}
+@media only screen and ( max-width: 844px) and (min-width:390px) {
+    #navbar{
+        width: 120%;
+        font-size: 8px;
+      }
+      body{
+        font-size: 26px; 
+        margin: 0px;  
+    }
+  }
+
+@media only screen and ( max-width: 1368px) and (min-width:912px){
+  body {
+    background-color: white;
+  }
+  #navbar{
+      width: 120%;
+      font-size: 8px;
+    }
+    body{
+      font-size: 27px;  
+      margin: 0px; 
+  }
+}
+
+@media only screen and ( max-width: 1280px) and (min-width:800px) {
+  body {
+    background-color: white;
+  }
+  #navbar{
+      width: 110%;
+      height: 30px;
+      font-size: 19px;
+    }
+    #navbar2{
+        font-size: 43px;
+        gap: 30%;
+    }
+    body{
+      font-size: 30px;
+      margin: 0px;   
+  }
+}
+
+@media only screen and ( max-width: 740px) and (min-width:360px) {
+    bod {
+        background-color: white;
+      }
+  
+        body{
+          font-size: 20px;
+          margin: 0px;   
+      }
+      #navbar2{
+        width: 50%;
+          font-size: 9px;
+          gap: 10%;
+  }
+  #navbar{
+    width:300%;
+  }
+}
+  @media only screen and ( max-width: 1024px) and (min-width:768px) {
+    body {
+      background-color: white;
+    }
+    #navbar{
+        width: 80%;
+        font-size: 8px;
+      }
+
+      body{
+        font-size: 20px; 
+        margin: 0px;  
+    }
+    #navbar2{
+        font-size: 15px;
+        gap: 40%;
+    }
+}
+@media only screen and ( max-width: 720px) and (min-width:540px) {
+    body {
+      background-color: white;
+    }
+    #navbar1{
+        width: 50%;
+    }
+    #navbar2{
+        width: 100%;
+        font-size: 8px;
+        gap: 4%;   
+    }
+    #navbar{
+        width: 115%;
+        font-size: 8px;
+      }
+      body{
+        font-size: 20px;   
+    }
+    #alls{
+        width: 63%;
+        font-size: 10px;
+        gap: 54%;  
+    }
+    #dolorr{
+        width: 40%;
+        height: 6%;
+        justify-content: left;
+        margin: 0;
+        margin-right: 50%;
+
+    }
+    #bottle{
+        width:20%;
+        margin: 0%;
+        margin-right: 50%;
+}
+body{
+    margin-right: 0px;
+}
+}
+@media only screen and ( max-width: 653px) and (min-width:280px) {
+    body {
+      background-color: white;
+    }
+    #navbar{
+        width: 200%;
+        font-size: 9px;
+        height: 17px;
+      }
+
+      body{
+        font-size: 20px;  
+        margin: 0px; 
+    }
+    #navbar2{
+        font-size: 15px;
+        gap: 10%;
+        width:200px ;
+    }
+}
+@media only screen and ( max-width: 914px) and (min-width:412px) {
+    body {
+      background-color: white;
+    }
+    #navbar{
+        width: 120%;
+        font-size: 8px;
+      }
+
+      body{
+        font-size: 20px;
+        margin: 0px;   
+    }
+    #navbar2{
+        font-size: 12px;
+        gap: 6%;
+        width: 60%;
+    }
+}
+@media only screen and ( max-width: 667px) and (min-width:375px) {
+    body {
+      background-color: white;
+      font-size: 20px; 
+        margin: 0px;
+
+    }
+    #navbar2{
+        font-size: 9px;
+        gap: 10%;
+    }
+        #navbar{
+        width: 100%;
+        font-size: 8px;
+    
+    }
+    #alls{
+      font-size: 12px ;
+    }
+    #indoor{
+        margin-right: 50%;
+        height: auto;
+    }
 }
